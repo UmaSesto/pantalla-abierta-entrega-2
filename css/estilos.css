@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #023047;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+header {
+    padding: 2rem;
+    background-color: #8ECAE6;
+    color: #023047;
+    border-bottom: 4px solid white;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+main {
+    padding: 2rem;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+button {
+    padding: 0.7em 1.2em;
+    font-size: 1rem;
+    background-color: #8ECAE6;
+    color: #023047;
+    border: 2px solid #023047;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #012233;
+}
+footer {
+    padding: 1rem;
+    border-top: 2px solid #8ECAE6;
+}
+.tarjeta {
+    width: 80%;
+    height: 220px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #8ECAE6;
+    color: #023047;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #012233;
+}
+body.claro {
+  background-color: #f1f7fa;
+  color: #023047;
+}
+
+body.claro header {
+  background-color: #023047;
+  color: white;
+}
